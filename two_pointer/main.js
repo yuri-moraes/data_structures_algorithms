@@ -33,6 +33,3 @@ const sol = new Solution();
 
 const resultado = sol.reverseWordsPure("Olá mundo");
 console.log(resultado);
-
-const resultado2 = sol.reverseWordsPure("Sem métodos built in");
-console.log(resultado2);
