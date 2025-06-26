@@ -1,21 +1,21 @@
 class solution:
     """
-    This is a method to show the reverse word aplying the Two Pointer solution
+    This is a method to show the reverse word applying the Two Pointer solution
     """
-    def reverseWords_manual(self, s):
-        res = ''
-        l, r = 0, 0
-        while r < len(s):
-            if s[r] != '':
-                r += 1
+    def reverseWords_manual(self, phrase):
+        result = ''
+        left, right = 0, 0
+        while right < len(phrase):
+            if phrase[right] != '':
+                right += 1
             else:
-                res += s[l:r + 1][::-1]
-                r+=1
-                l = r
-        res += ''
-        res += s[l:r + 2][::-1]
-        return res[1:]
+                result += phrase[left:right + 1][::-1]
+                right+=1
+                left = right
+        result += ''
+        result += phrase[left:right + 2][::-1]
+        return result[1:]
 
 sol = solution()
-word = sol.reverseWords_manual(s="Olá mundo!")
+word = sol.reverseWords_manual(phrase="Olá mundo!")
 print(word)
