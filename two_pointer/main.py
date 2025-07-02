@@ -2,7 +2,7 @@ class solution:
     """
     This is a method to show the reverse word applying the Two Pointer solution
     """
-    def reverseWords_manual(self, phrase):
+    def reverse_words_manual(self, phrase):
         result = ''
         left, right = 0, 0
         while right < len(phrase):
@@ -17,5 +17,5 @@ class solution:
         return result[1:]
 
 sol = solution()
-word = sol.reverseWords_manual(phrase="Olá mundo!")
+word = sol.reverse_words_manual(phrase="Olá mundo!")
 print(word)
