@@ -1,11 +1,11 @@
 function binarySearch(ordened_array: number[], target: number): number {
-    let low:number = 0;
-    let high:number = ordened_array.length;
-    let steps:number = 0;
+    let low = 0;
+    let high = ordened_array.length;
+    let steps = 0;
 
     while (low < high) {
         steps++;
-        let mid: number = Math.floor((low + high)/2);
+        let mid = Math.floor((low + high)/2);
         if (ordened_array[mid] === target) {
             console.log("Steps", steps);
             return mid;

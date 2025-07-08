@@ -1,10 +1,10 @@
 function reverseWordsPure(phrase: string): string {
     phrase += " ";
-    let currentWord: string = "";
-    let reversePhrase: string = "";
+    let currentWord = "";
+    let reversePhrase = "";
 
     for (let i = 0; i < phrase.length; i++) {
-        let char: string = phrase[i];
+        let char = phrase[i];
         if (char !== " ") {
             currentWord += char;
         }

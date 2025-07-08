@@ -1,13 +1,13 @@
 function maximumLengthSubstring(s:string):number {
-    let right:number = 0;
-    let left:number = 0
-    let max:number = 1
-    let stringLength:number = s.length
+    let right = 0;
+    let left = 0
+    let max = 1
+    let stringLength = s.length
     const counter: Record<string, number> = {};
 
     while (right < stringLength - 1) {
         right++
-        const char:string = s[right];
+        const char = s[right];
 
         counter[char] = (counter[char] || 0) + 1;
 
