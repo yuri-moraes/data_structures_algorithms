@@ -25,5 +25,5 @@ function reverseWordsPure(phrase: string): string {
     return reversePhrase;
 }
 
-const word: string = reverseWordsPure("Olá mundo!")
+const word = reverseWordsPure("Olá mundo!")
 console.log(word);
