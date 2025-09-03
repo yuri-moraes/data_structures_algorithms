@@ -16,11 +16,11 @@ Aqui, não irei te ensinar a como usar um array em liguagem 'x' ou 'y'. Mas sim 
 
 Um array pode ser de vários tipos, como Int, Float, String, etc. E o valor é acessado passando sua posição através de índices, como por exemplo no array abaixo [10, 49, 20, 9, 16, 22].
 
-![alt text](media/image.png)
+![alt text](../media/image.png)
 
 Quando falamos de matrizes e vetores estamos simplificamente falando, de arrays! Mas com outras dimensões.Vetor é um array de uma dimensão e uma matriz é um array de mais de uma dimensão.
 
-![alt text](media/image-1.png)
+![alt text](../media/image-1.png)
 
 ## Análise de Big O
 
@@ -36,7 +36,7 @@ Assim como remover, adicionar um elemento no final de um array dinâmico também
 
 Contudo, de vez em quando, o array pode ficar cheio e precisar ser redimensionado (criar um novo array maior e copiar os elementos). Essa operação específica é O(n). Como isso acontece raramente, na média, o custo de adicionar ao final se 'dilui' e é considerado O(1) Amortizado.
 
-![alt text](media/image-2.png)
+![alt text](../media/image-2.png)
 
 ## Arrays Estáticos vs. Dinâmicos
 
